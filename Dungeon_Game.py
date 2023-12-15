@@ -5,7 +5,7 @@ import pygame
 
 # Запуск музыки
 pygame.mixer.init()
-pygame.mixer.music.set_volume(0.0)
+pygame.mixer.music.set_volume(0.0)  # настройка громкости
 pygame.mixer.music.load("music.mp3")
 pygame.mixer.music.play()
 
